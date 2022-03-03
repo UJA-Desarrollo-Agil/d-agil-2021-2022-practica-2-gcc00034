@@ -29,22 +29,30 @@ undum.game.slideUpSpeed = 500
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     start: new undum.SimpleSituation(
-        "<h1>Starting Out with Undum</h1>\
+        "<h1>Dia de tu cumpleaños</h1>\
         <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
-        <p>Welcome to the Undum tutorial. Undum is a tool for writing\
-        hypertext interactive fiction. It has some unique features\
-        and a visual design that encourages narrative games.</p>\
+        <p>Hoy es tu cumpleaños y tu padres te dan un regalo a elegir entre dos opciones.</p>\
         \
-        <p>Hypertext interactive fiction is the digital equivalent of the\
-        Choose Your Own Adventure (CYOA) books that were popular in the\
-        1980s. The story is told in chunks, and you select from a range\
-        of options to move it forward. Unlike the book form, however, the\
-        digital form gives you far more flexibility to tell rich stories\
-        and introduce more interesting game elements.</p>\
+        <p>Elige:</p>\
         \
-        <p class='transient'>Click <a href='hub'>this link to\
-        continue...</a></p>"
+        <p class='transient'><a href='fiat'>100 euros</a></p>\
+        \
+        <p class='transient'><a href='btc'>0.001 BTC</a></p>"
     ),
+
+    fiat: new undum.SimpleSituation(
+        "<img src='media/games/tutorial/woodcut1.png' class='float_right'>\
+        <p>Pasa 1 año, y la inflacción sube un 50%, tus 100 euros se convierten en polvo..</p>\
+        <p class='transient'>Click para...<a href='start'>volver a pensar la elección.</a></p>"
+    ),
+
+    btc: new undum.SimpleSituation(
+        "<img src='media/games/tutorial/woodcut1.png' class='float_right'>\
+        <p>Pasa 1 año, y gracias a algunos acontecimientos la gente usa btc masivamente y tu capital </p>\
+        <p>un 100% subiendo hasta los 200€. </p>\
+       <p class='transient'>Click para...<a href='hub'>continuar.</a></p>"
+    ),
+    
 
     // NB: The 'hub' situation which is the main list of topics, is
     // defined wholly in the HTML file, and doesn't have an entry in
@@ -473,7 +481,7 @@ undum.game.qualities = {
  * non-existent group. */
 undum.game.qualityGroups = {
     stats: new undum.QualityGroup(null, {priority:"0001"}),
-    progress: new undum.QualityGroup('Progress', {priority:"0002"})
+  progress: new undum.QualityGroup('Progress', {priority:"0002"})
 };
 
 // ---------------------------------------------------------------------------
