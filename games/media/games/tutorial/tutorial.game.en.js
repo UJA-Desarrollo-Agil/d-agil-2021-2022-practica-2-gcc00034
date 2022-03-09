@@ -30,28 +30,72 @@ undum.game.slideUpSpeed = 500
 undum.game.situations = {
     start: new undum.SimpleSituation(
         "<h1>Dia de tu cumpleaños</h1>\
-        <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
+        <img src='media/games/tutorial/tarta1.png' class='float_right'>\
         <p>Hoy es tu cumpleaños y tu padres te dan un regalo a elegir entre dos opciones.</p>\
         \
         <p>Elige:</p>\
         \
-        <p class='transient'><a href='fiat'>100 euros</a></p>\
+        <p class='sticky'><a href='fiat'>100 euros</a></p>\
         \
-        <p class='transient'><a href='btc'>0.001 BTC</a></p>"
+        <p class='sticky'><a href='btc'>0.0026 BTC</a></p>"
     ),
 
     fiat: new undum.SimpleSituation(
-        "<img src='media/games/tutorial/woodcut1.png' class='float_right'>\
-        <p>Pasa 1 año, y la inflacción sube un 50%, tus 100 euros se convierten en polvo..</p>\
+        "<p class='transient float-right'><img src='media/games/tutorial/euro.png' class='float_right'>\
+        Pasa 1 mes, y la inflacción sube un 50%, tus 100 euros se convierten en polvo..</p>\
         <p class='transient'>Click para...<a href='start'>volver a pensar la elección.</a></p>"
     ),
 
     btc: new undum.SimpleSituation(
-        "<img src='media/games/tutorial/woodcut1.png' class='float_right'>\
-        <p>Pasa 1 año, y gracias a algunos acontecimientos la gente usa btc masivamente y tu capital </p>\
-        <p>un 100% subiendo hasta los 200€. </p>\
-       <p class='transient'>Click para...<a href='hub'>continuar.</a></p>"
+        "<p class='transient float-right'><img src='media/games/tutorial/btc.png' class='float_right'>\
+        Pasa 1 mes, y gracias a algunos acontecimientos la gente usa btc masivamente y tu capital\
+        un 100% subiendo hasta los 200€. </p>\
+       <p class='transient'>Click para...<a href='trama1'>continuar.</a></p>"
     ),
+
+    trama1: new undum.SimpleSituation(
+        "<p class='transient float-right'>Con tanto dinero para gastar decides ir a un concierto de uno de tus artirtas favoritos,\
+        escoge a uno: </p>\
+       <p class='transient'><a href='nao'>C Tangana</a></p>\
+       <p class='transient'><a href='aitana'>Aitana</a></p>\
+       <p class='transient'><a href='nao'>Rauw Alejandro</a></p>"
+    ),
+   
+    aitana: new undum.SimpleSituation(
+        "<p class='transient float-right'>Buenísima elección, no esperaba menos de ti. \
+        Con tus 200€ tienes total libertad para elegir el asiento que quieras. Elígelo! .\
+   <img src='media/games/tutorial/asientos.png' class='float_right'></p>\
+         <p class='transient'><a href='pagar'>Zona A</a></p>\
+         <p class='transient'><a href='pagar'>Zona B</a></p>\
+         <p class='transient'><a href='pagar'>Zona C</a></p>\
+         <p class='transient'><a href='pagar'>Zona D</a></p>"     
+    ),
+
+    pagar: new undum.SimpleSituation(
+        "<p>Entrada elegida, hora de pagar. \
+        Verificando que no eres un bot! \
+        Captcha: </p>\
+    <img src='media/games/tutorial/bot.png'>\
+    <p>¿Qué código es el correcto?</p>\
+         <p class='sticky'><a href='fracaso'>rabited</a></p>\
+         <p class='sticky'><a href='exito'>rabbited</a></p>\
+         <p class='sticky'><a href='fracaso'>rabbted</a></p>\
+         <p class='sticky'><a href='fracaso'>rabitd</a></p>"     
+    ),
+
+    exito: new undum.SimpleSituation(
+        "<p>Has ido al concierto, te lo has pasado de lujo y has vuelto a casa sin complicaciones.\
+        Encima te ha sobrado dinero para ir a otro concierto</p>"
+    ),
+
+    fracaso: new undum.SimpleSituation(
+        "<p>Se ha cancelado el proceso de compra y encima has perdido todo el dinero. \
+        Para la próxima vez presta más atención, pichón.</p>"
+    ),
+
+
+
+   
     
 
     // NB: The 'hub' situation which is the main list of topics, is
