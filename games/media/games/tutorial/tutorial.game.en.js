@@ -60,6 +60,13 @@ undum.game.situations = {
        <p class='transient'><a href='aitana'>Aitana</a></p>\
        <p class='transient'><a href='nao'>Rauw Alejandro</a></p>"
     ),
+
+    nao: new undum.SimpleSituation(
+        "<p class='transient float-right'>¿Cómo va a ser ese tu artista favorito?\
+        Anda, anda, escoge a otro..... </p>\
+       <p class='transient'><a href='trama1'>Click para volver a la elección</a></p>"
+    ),
+
    
     aitana: new undum.SimpleSituation(
         "<p class='transient float-right'>Buenísima elección, no esperaba menos de ti. \
