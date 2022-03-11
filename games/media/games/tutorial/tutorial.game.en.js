@@ -48,14 +48,14 @@ undum.game.situations = {
 
     btc: new undum.SimpleSituation(
         "<p class='transient float-right'><img src='media/games/tutorial/btc.png' class='float_right'>\
-        Pasa 1 mes, y gracias a algunos acontecimientos la gente usa btc masivamente y tu capital\
-        un 100% subiendo hasta los 200€. </p>\
+        Pasa el tiempo y el Bitcoin, y gracias a que es una reserva de valor sigues teniendo la misma\
+        cantidad de dinero. </p>\
        <p class='transient'>Click para...<a href='trama1'>continuar.</a></p>"
     ),
 
     trama1: new undum.SimpleSituation(
-        "<p class='transient float-right'>Con tanto dinero para gastar decides ir a un concierto de uno de tus artirtas favoritos,\
-        escoge a uno: </p>\
+        "<p class='transient float-right'>Este verano vienen varios artistas a ciudades cercanas a la\
+        tuya, y con el dinero de tu cumpleaños decides ir a uno de sus conciertos. Escoge a uno: </p>\
        <p class='transient'><a href='nao'>C Tangana</a></p>\
        <p class='transient'><a href='aitana'>Aitana</a></p>\
        <p class='transient'><a href='nao'>Rauw Alejandro</a></p>"
@@ -90,15 +90,47 @@ undum.game.situations = {
          <p class='sticky'><a href='fracaso'>rabitd</a></p>"     
     ),
 
-    exito: new undum.SimpleSituation(
-        "<p>Has ido al concierto, te lo has pasado de lujo y has vuelto a casa sin complicaciones.\
-        Encima te ha sobrado dinero para ir a otro concierto</p>"
-    ),
-
     fracaso: new undum.SimpleSituation(
         "<p>Se ha cancelado el proceso de compra y encima has perdido todo el dinero. \
-        Para la próxima vez presta más atención, pichón.</p>"
+        Para la próxima vez presta más atención.</p>"
     ),
+
+    exito: new undum.SimpleSituation(
+        "<p>Una vez conseguida la entrada, necesitas un medio de transporte. Para ir\
+        te planteas ir andando o en bici, pero sabiendo que el evento está a varios cientos de kilómetros\
+        casi mejor ir de otra manera. <a href='adelante'>Autobus</a>, <a href='carnet'>coche</a> o \
+        <a href='adelante'>tren</a></p>"
+    ),
+
+    carnet: new undum.SimpleSituation(
+        "<p class='transient >¿Pero como vas a ir en coche si no tienes ni el carnet?\
+        <a href='continua'>Volver</a></p>"
+    ),
+   
+    adelante: new undum.SimpleSituation(
+        "<p>Todo está saliendo perfecto, estás ya en tu asiento esperando con ganas que empiece el\
+        concierto. Te entran ganas de ir al baño y como queda todavía 30 minutos para que empiece\
+        te levantas y vas. Resulta que de camino al baño Aitana pasa al lado tuyo, te pones nervioso\
+        pero tienes que tomar una decisión.\
+        <a href='sigue'>sigues tu camino hacia el baño </a> o \
+        <a href='puño'>te lanzas hacía ella para saludarla. </a></p>"
+        
+    ),
+
+    puño: new undum.SimpleSituation(
+        "<p>Resulta que los guardias de seguridad con los que iba tenían orden de aplacar\
+        a cualquier persona que se acercase a ella de manera repentina. Directo al hostpital y....\
+        aquí acaba tu viaje.</p>"
+    ),
+
+    sigue: new undum.SimpleSituation(
+        "<p>Vas al baño, vuelves a tu sitio y te lo pasas perfecto. Ya es hora de volver a casa,\
+        vuelves por el mismo medio en el que fuiste. Estás reventado de\
+        todo el viaje, por lo que te tumbas en la cama\
+        y te quedas durmiendo.\
+        ----FIN----\</p>"
+    ),
+   
 
 
 
