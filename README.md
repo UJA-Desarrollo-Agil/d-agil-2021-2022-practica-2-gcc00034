@@ -33,10 +33,19 @@ Esta práctica está motivada por la entrega necesaria el 15 de Marzo de 2022 ad
 
 ### 3. Descripción del juego
 ![imagen_portada_juego](/capturas/portada.png)
+> Portada de *El Cumpleaños* , juego Undum realizado para esta práctica.
+
+Para diseñar el juego había que cumplir varios requisitos sobre el desarrollo de la historia. El juego tenía que empezar en nuestra casa, había que ir a un espectáculo
+y por último volver a casa.
+
+*El Cumpleaños* empieza en casa, eligiendo nuestro regalo de cumpleaños que nos hacen nuestros padres. El espectáculo al que vamos es un concierto, por lo tanto
+en la historia debemos elegir al artista que queremos ir a ver, medio de transporte y comprar la entrada entre otras cosas. En el concierto en sí también hay que tomar decisiones acerca de las accciones que vamos a realizar. La vuelta a casa es rápida y no hay ninguna elección.
 
 ### 4. Enlace a tablero Trello
 Enlace a mi tablero Trello de la práctica 2: [Tablero Trello](https://trello.com/b/p8UYNgjW/pr%C3%A1ctica-2)
 ### 5. Capturas de Pantalla
+   - Tablero Trello
+   - Bot GitHub
 ### 6. Conclusión
 
 
