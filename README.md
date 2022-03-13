@@ -56,35 +56,41 @@ Enlace a mi tablero Trello de la práctica 2: [Tablero Trello](https://trello.co
 ### 5. Capturas de Pantalla
 
    - Tablero Trello
+
+Evolución de tablero Trello a lo largo de las cuatro semanas de la páctica.
    
    ![imagen](/capturas/antesDeEmpezarElCodigo.png)
-   > Estado del tablero sin haber hecho nada de código.
+   > 🔼 Estado del tablero sin haber hecho nada de código  .
    
    ![imagen](/capturas/ComienzaDiseño.png)
-   > Estado del tablero una vez empezado el diseño en papel del juego.
+   > 🔼Estado del tablero una vez empezado el diseño en papel del juego.
    
    ![imagen](/capturas/comienzaProgramacion.png)
-   > Estado del tablero al empezar a programar.
+   > 🔼Estado del tablero al empezar a programar.
     
    ![imagen](/capturas/probarJuego.png) 
-   > Estado del tablero al probar por primera vez el juegi.
+   > 🔼Estado del tablero al probar por primera vez el juegi.
     
    ![imagen](/capturas/11marzoCasiTerminado.png)
-   > Estado del tablero el 11 de Marzo, estado casi terminado.
+   > 🔼Estado del tablero el 11 de Marzo, estado casi terminado.
     
    ![imagen](/capturas/terminado.png)
-   > Estado del tablero con todo terminado.
+   > 🔼Estado del tablero con todo terminado.
    
    - Bot GitHub
    
+ Funcionamiento del bot de GitHub en Telegram.
+   
    ![imagen](/capturas/integracion.png)
-   > Integración del repositorio de la práctica 2 en el bot de Telegram de GitHub.
+   > 🔼Integración del repositorio de la práctica 2 en el bot de Telegram de GitHub.
     
    ![imagen](/capturas/telegram.png)
-   > Commits realizados en el repositorio mostrados en Telegram.
+   > 🔼Commits realizados en el repositorio mostrados en Telegram.
    
 ### 6. Conclusión
-
+En esta primera toma de contacto con Undum he podido ver todas las opciones que nos ofrece Undum. Algunas de ellas como las de coger un objeto, que el personaje tenga
+cualidades o incluso un progreso las he intentado implementar sin éxito ya que tras varios intentos no me funcionaba. Tras terminar la práctica me ha parecido más complicado
+entender Undum que programar el juego el sí.
 
 
 
