@@ -25,8 +25,15 @@ Hecho por: Guillermo Cámara Castillo (gcc00034).
 6. Conclusión
 
 ### 1. Introducción
+En esta segunda práctica el objetivo es aprender a usar Undum, para ello se ha diseñado un juego que se explicará. A parte se verán todos los recursos necesarios
+para verificar que ha sido hecho de manera adecuada.
+
 ### 2. Motivación
+Esta práctica está motivada por la entrega necesaria el 15 de Marzo de 2022 además de tener un peso importante en la nota de la asignatura.
+
 ### 3. Descripción del juego
+![imagen_portada_juego](/capturas/portada.png)
+
 ### 4. Enlace a tablero Trello
 Enlace a mi tablero Trello de la práctica 2: [Tablero Trello](https://trello.com/b/p8UYNgjW/pr%C3%A1ctica-2)
 ### 5. Capturas de Pantalla
