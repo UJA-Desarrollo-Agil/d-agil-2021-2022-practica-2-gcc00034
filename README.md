@@ -58,14 +58,31 @@ Enlace a mi tablero Trello de la práctica 2: [Tablero Trello](https://trello.co
    - Tablero Trello
    
    ![imagen](/capturas/antesDeEmpezarElCodigo.png)
+   > Estado del tablero sin haber hecho nada de código.
+   
    ![imagen](/capturas/ComienzaDiseño.png)
+   > Estado del tablero una vez empezado el diseño en papel del juego.
+   
    ![imagen](/capturas/comienzaProgramacion.png)
-   ![imagen](/capturas/probarJuego.png)
+   > Estado del tablero al empezar a programar.
+    
+   ![imagen](/capturas/probarJuego.png) 
+   > Estado del tablero al probar por primera vez el juegi.
+    
+   ![imagen](/capturas/11marzoCasiTerminado.png)
+   > Estado del tablero el 11 de Marzo, estado casi terminado.
+    
    ![imagen](/capturas/terminado.png)
+   > Estado del tablero con todo terminado.
+   
    - Bot GitHub
    
    ![imagen](/capturas/integracion.png)
+   > Integración del repositorio de la práctica 2 en el bot de Telegram de GitHub.
+    
    ![imagen](/capturas/telegram.png)
+   > Commits realizados en el repositorio mostrados en Telegram.
+   
 ### 6. Conclusión
 
 
