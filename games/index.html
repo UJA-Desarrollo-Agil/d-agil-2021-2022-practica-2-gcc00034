@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- Game Title: edit this -->
-    <title>Prueba juego</title>
+    <title>El cumpleaños</title>
     <!-- End of Game Title -->
 
     <!-- Remove this if you don't use the Tangerine font in your
@@ -34,7 +34,7 @@
     <div id="toolbar">
       <!-- Set this to be a small version of the title, for the
            toolbar on mobile devices. -->
-      <h1>Juego de prueba</h1>
+      <h1>Undum</h1>
       <div class="nav">
         <a href="#" class="button" id="menu-button">Menu</a>
       </div>
@@ -53,7 +53,10 @@
           <!-- Game Background: edit this -->
           <h1>Historia</h1>
           <p>
-           Jueguito que estamos probando jejejeje
+            En este juego creado con Undum emprenderás un viaje que comienza 
+            el día de tu cumpleaños, en él, comenzando con la elección de tu regalo tú mismo serás
+            el dueño de tu destino teniendo que escoger entre las diferentes opciones que se te dan.
+            Harás compras, viajarás, quizás tengas que luchar, y mucho más.... Mucha suerte!
           </p>
           <!-- End of Game Background -->
 
@@ -62,16 +65,7 @@
           </div>
         </div>
 
-        <div id="character_panel" class="tools right">
-          <h1>Personaje</h1>
-          <div id="character">
-            <p>bitcoin</p>
-            <div id="character_text">
-              <div id="character_text_content"></div>
-            </div>
-            <div id="qualities"></div>
-          </div>
-        </div>
+      
       </div> <!-- End of div.tools_wrapper -->
 
       <div id="mid_panel">
@@ -79,14 +73,13 @@
           <div class="label">
 
             <!-- Game Title: edit this -->
-            <h1>Pezado de juego que  
-              estamos haciendo</h1>
-            <h2>creado por Guillermo Cámara Castillo</h2>
+            <h1>El cumpleaños</h1>
+            <h2>by Guillermo Cámara Castillo</h2>
             <!-- End of Game Title -->
 
             <noscript><p class="noscript_message">This game requires 
               Javascript.</p></noscript>
-            <p class="click_message">click to empezar</p>
+            <p class="click_message">click para empezar</p>
           </div>
         </div>
 
@@ -135,82 +128,13 @@
       <hr id="turn_separator">
     </div>
 
-    <!-- You don't need to have this block here, but it is defined in
-         the CSS file as hidden, so it is a good spot to hide content
-         you want to load from your game code. See the
-         tutorial.game.js file for details of how this is used. -->
-    <div id="content_library">
-      <div id="s_situations">
-        <h1>Situations</h1>
-        <p>
-          In Undum, all interaction takes place in a situation. You
-          can think of it either as a 'Room' in traditional
-          interactive fiction (although it is less flexible than
-          that), or as a 'Page' in a Choose Your Own Adventure book
-          (though it is more flexible than that).
-        </p>
-        <p>
-          At any point, the character is in exactly one situation, and
-          that situation is responsible for everything that happens to
-          them. Situations are chunks of code that generate the output
-          you are reading here. For example, this text was generated
-          by the <em>enter</em> method of the 'situations' situation.
-        </p>
-        <p class='transient'>
-          Let's <a href='todo'>move on again</a>.
-        </p>
-      </div>
-
-      <div id="s_saving">
-        <h1>Saving and Loading</h1>
-        <p>hola
-        </p>
-        <p>
-          hola1
-        </p>
-        <p class='transient'>
-          Let's return to the <a href='hub'>topic list</a>.
-        </p>
-      </div>
-
-      <!-- Some situations defined entirely in the HTML -->
-      <div id="hub" class="situation" data-choices="#topic"
-           data-option-text="View Topic List">
-        <h1 class="transient">Topics</h1>
-        <p class="transient">Choose a topic to find out about next. If
-          in doubt, go through the topics in order.</p>
-      </div>
-
-      <div id="implicit" class="situation" data-tags="topic"
-           data-heading="Implicit Choices" data-display-order="7"
-           data-choices="#example">
-        <p>hola3</p>
-        <p>hola4 <em>canView</em> method, which gets to decide whether that
-          situation should appear. That method can look at the
-          current state of the character to decide whether to appear
-          or not. Thirdly, <em>SimpleSituation</em>s have a <em>choices</em>
-          option. If it is set to one or more tags, it handles the building
-          of the choice list.</p>
-        <p>You've seen this already in the topic list. The topic list
-          is generated automatically. All of the situations in the topic
-          list are always available, however.
-          <span class="transient">So here is an example of
-          automatic options that may change:</span></p>
-      </div>
-
-      <div id="example-choices" class="situation" data-choices="#example">
-        <p class="transient">You can return to the
-          <a href='hub'>Topic List</a> or choose another option from
-          this example:</p>
-      </div>
-    </div>
-
+    
     <!-- Load the libraries we depend on -->
     <script type="text/javascript" src="media/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="media/js/undum.js"></script>
 
     <!-- Change the name of this file. It is your main game file. -->
     <script type="text/javascript"
-            src="media/games/tutorial/tutorial.game.en.js"></script>
+            src="media/games/tutorial/javas.js"></script>
   </body>
 </html>
