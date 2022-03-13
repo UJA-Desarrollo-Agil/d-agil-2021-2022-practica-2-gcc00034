@@ -12,16 +12,25 @@ Profesor: Víctor Manuel Rivas Santos.
 
 Hecho por: Guillermo Cámara Castillo (gcc00034).
 
-Enlace a mi tablero en Trello de la práctica 2: [Tablero Trello](https://trello.com/b/p8UYNgjW/pr%C3%A1ctica-2)
+
 
 ## Índice
 1. Introducción
 2. Motivación
 3. Descripción del juego
-4. Enlace a Tablero Trello
+4. Enlace a tablero Trello
 5. Capturas de pantalla
    - Tablero Trello
    - Bot GitHub
+6. Conclusión
+
+### 1. Introducción
+### 2. Motivación
+### 3. Descripción del juego
+### 4. Enlace a tablero Trello
+Enlace a mi tablero Trello de la práctica 2: [Tablero Trello](https://trello.com/b/p8UYNgjW/pr%C3%A1ctica-2)
+### 5. Capturas de Pantalla
+### 6. Conclusión
 
 
 
